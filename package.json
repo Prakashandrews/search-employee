@@ -19,7 +19,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "coverage": "npx jest --coverage"
+    "coverage": "npx jest --coverage",
+    "test1": "jest --verbose",
+    "test:watch": "jest --watchAll --verbose",
+    "test:coverage": "jest --verbose --coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
